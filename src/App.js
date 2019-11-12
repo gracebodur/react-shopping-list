@@ -51,7 +51,7 @@ class App extends React.Component {
     return (
       <>
       <div className='container'>
-      <header className='header'>
+      <header>
         <h1>Shopping List</h1>
       </header>
       <main>

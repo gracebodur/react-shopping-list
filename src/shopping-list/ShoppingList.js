@@ -1,5 +1,6 @@
 import React from 'react'
 import ShoppingItem from './ShoppingItem'
+import './shoppingList.css'
 
 export default function ShoppingList(props) {
     return (

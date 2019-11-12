@@ -1,0 +1,16 @@
+form {
+    display: flex; 
+}
+
+input[type="text"] {
+    padding: 0 .5rem;
+    height: 32px;
+    margin: 0 10px 2rem 0;
+}
+
+button[type="submit"] {
+    width: 80px;
+    height: 32px;
+    border: none;
+    border-radius: 6px;
+}

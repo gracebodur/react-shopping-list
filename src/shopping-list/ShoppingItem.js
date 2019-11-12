@@ -1,4 +1,5 @@
 import React from 'react'
+import './shoppingItem.css'
 
 export default function ShoppingItem(props) {
     return (
@@ -8,7 +9,7 @@ export default function ShoppingItem(props) {
             }}>
                 {props.item.name}
             </h2>
-            <button 
+            <button
             onClick={() => props.onCheckItem(props.item)}
             type='button'>check</button>
             <buton 

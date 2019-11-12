@@ -1,0 +1,11 @@
+li {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px dotted #888;
+}
+
+h2 {
+    margin-bottom: .5rem;
+    font-size: 1.25rem;
+}
+
