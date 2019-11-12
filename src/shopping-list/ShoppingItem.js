@@ -9,10 +9,10 @@ export default function ShoppingItem(props) {
                 {props.item.name}
             </h2>
             <button 
-            onClick={props.onCheckItem}
+            onClick={() => props.onCheckItem(props.item)}
             type='button'>check</button>
             <buton 
-            onClick={props.onDeleteItem}
+            onClick={() => props.onDeleteItem(props.item)}
             type='button'>delete</buton>
         </li>
     )
